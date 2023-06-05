@@ -46,3 +46,12 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+/* ho copiato immagine da esercizio 6 perchè non la carica */
+.ex-7-img {
+    transition: 1.5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%) blur(3px);
+}
