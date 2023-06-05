@@ -1,4 +1,17 @@
+.ex-1-square {
+    transition: all 1.5s ease 0s;
+}
+
 .ex-1-square:hover {
     background-color: red;
-    transition: 1.5s;
 }
+
+.ex-2-square {
+    transition: 2s;
+    transition-timing-function: linear ease-out;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
