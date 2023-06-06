@@ -194,6 +194,11 @@
         left: -10%;
         top: -10px;
     }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
 }
 
 @keyframes moving_bottomwhitespace {
@@ -219,6 +224,11 @@
 
     90% {
         right: -10%;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
         bottom: -10px;
     }
 }
